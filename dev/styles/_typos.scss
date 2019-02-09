@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
 
 // @font-face {
 //   font-family: "dry_brushregular";
@@ -15,17 +15,35 @@
 html {
   font-family: $font-family-main;
   color: $color-black;
-  font-weight: $font-weight-3;
+}
+
+footer {
+  color: $color-grey;
+
+  line-height: 1rem;
+  padding: 40px 0 40px 0;
+  text-align: center;
+  p {
+    margin: 0;
+    font-size: $font-size-xs;
+  }
 }
 
 p {
-  // font-weight: $font-weight-2;
+  font-weight: $font-weight-3;
   font-size: $font-size-m;
+  line-height: 24px;
+  text-indent: 2rem;
+  margin-bottom: 2rem;
 }
 
 a {
   color: $color-silver;
   text-decoration: none;
+}
+
+h1 {
+  margin-bottom: 40px;
 }
 
 // .subtitle {
@@ -36,16 +54,16 @@ a {
 //   }
 // }
 
-.uppercase {
-  text-transform: uppercase !important;
-}
+// .uppercase {
+//   text-transform: uppercase !important;
+// }
 
-.label {
-  text-align: left;
-  font-size: $font-size-s;
-  font-style: italic;
-  margin-bottom: 10px;
-}
+// .label {
+//   text-align: left;
+//   font-size: $font-size-s;
+//   font-style: italic;
+//   margin-bottom: 10px;
+// }
 
 // .floating-label {
 //   position: absolute;
@@ -98,7 +116,8 @@ a {
 .is-m {
   font-size: $font-size-m !important;
 }
-.is-l {
+.is-l,
+h1 {
   font-size: $font-size-l !important;
   @media screen and (max-width: $width-xs) {
     font-size: 1.2em !important;
