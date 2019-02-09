@@ -12,8 +12,8 @@ textarea,
   border: 0;
   box-sizing: border-box;
   resize: vertical;
-  background-color: $color-grey5;
-  color: $color-grey2;
+  // background-color: $color-grey5;
+  // color: $color-grey2;
 }
 
 label {
@@ -62,16 +62,16 @@ button[type="reset"]:hover {
 
 .ghost-button {
   padding: 8px;
-  border: 1px solid $color-grey3 !important;
+  border: 1px solid $color-silver !important;
   background-color: white;
-  color: $color-grey3;
+  color: $color-silver;
   transition: 0.5s;
 }
 
 .ghost-button:hover {
   cursor: pointer;
   color: white;
-  background-color: $color-grey3;
+  background-color: $color-silver;
   transition: 0.5s;
 }
 
@@ -97,25 +97,25 @@ button[type="reset"]:hover {
     width: 30px;
     height: 30px;
     content: "";
-    background: $color-grey5;
+    background: $color-silver;
     margin-top: -6px;
-    border: 5px solid $color-grey5;
+    border: 5px solid $color-silver;
   }
 
   input:checked + label::before {
-    background: $color-grey2;
+    background: $color-silver;
   }
 }
 
 //FAKESELECT
 .fakeselect .checkbox {
   label::before {
-    background: $color-grey4;
-    border: 5px solid $color-grey4;
+    background: $color-silver;
+    border: 5px solid $color-silver;
   }
 
   input:checked + label::before {
-    background: $color-grey2;
+    background: $color-silver;
   }
 }
 
@@ -126,14 +126,14 @@ button[type="reset"]:hover {
 }
 
 .fakeselect a {
-  color: $color-grey2 !important;
+  color: $color-silver !important;
   cursor: default;
   width: 100%;
   height: 100%;
   padding: 10px !important;
 
   &:after {
-    color: $color-grey2 !important;
+    color: $color-silver !important;
     font-size: 8px;
     position: absolute;
     right: 6px;
@@ -180,12 +180,12 @@ button[type="reset"]:hover {
 }
 
 .inputfile + label {
-  color: $color-grey2;
+  color: $color-silver;
   width: 100%;
   height: 250px;
   text-align: center;
   padding: 70px 20px 20px 20px;
-  background-color: $color-grey5;
+  background-color: $color-silver;
   display: inline-block;
   cursor: pointer;
 }

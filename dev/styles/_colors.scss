@@ -1,9 +1,7 @@
 /*----------------------------------------------------------------------------------------------*/
 /* COLORS */
 /*----------------------------------------------------------------------------------------------*/
-$val: ("white") ("white"), ("blue") ($color-blue), ("green") ($color-green),
-  ("grey1") ($color-grey1), ("grey2") ($color-grey2), ("grey3") ($color-grey3),
-  ("grey4") ($color-grey4), ("grey5") ($color-grey5);
+$val: ("white") ($color-white), ("silver") ($color-silver), ("black") ($color-black), ("sand") ($color-sand), ("gold") ($color-gold), ("brown") ($color-brown), ("green") ($color-green);
 
 @each $i in $val {
   .bg-#{nth($i, 1)} {

@@ -1,22 +1,21 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700");
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
 
-@font-face {
-  font-family: "dry_brushregular";
-  src: url("sources/fonts/dry_brush-webfont.woff2") format("woff2"),
-    url("sources/fonts/dry_brush-webfont.woff") format("woff"),
-    url("sources/fonts/dry_brush-webfont.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
+// @font-face {
+//   font-family: "dry_brushregular";
+//   src: url("sources/fonts/dry_brush-webfont.woff2") format("woff2"),
+//     url("sources/fonts/dry_brush-webfont.woff") format("woff"),
+//     url("sources/fonts/dry_brush-webfont.ttf") format("truetype");
+//   font-weight: normal;
+//   font-style: normal;
+// }
 
 /*----------------------------------------------------------------------------------------------*/
 /* TYPOS */
 /*----------------------------------------------------------------------------------------------*/
 html {
   font-family: $font-family-main;
-  color: $color-grey1;
-  background-color: white;
-  font-weight: $font-weight-1;
+  color: $color-black;
+  font-weight: $font-weight-3;
 }
 
 p {
@@ -25,17 +24,17 @@ p {
 }
 
 a {
-  color: $color-grey1;
+  color: $color-silver;
   text-decoration: none;
 }
 
-.subtitle {
-  font-family: $font-family-sub;
-  // color: $color-orange;
-  @media screen and (max-width: $width-xs) {
-    padding-left: 0 !important;
-  }
-}
+// .subtitle {
+//   font-family: $font-family-sub;
+//   // color: $color-orange;
+//   @media screen and (max-width: $width-xs) {
+//     padding-left: 0 !important;
+//   }
+// }
 
 .uppercase {
   text-transform: uppercase !important;
@@ -48,24 +47,24 @@ a {
   margin-bottom: 10px;
 }
 
-.floating-label {
-  position: absolute;
-  top: -35px;
-  left: 50%;
-  transform: translate(-50%, 0);
-  padding: 20px;
-  background-color: white;
-  text-transform: uppercase;
-  font-size: 1.5em;
-  color: $color-grey3;
-  @media screen and (max-width: $width-xs) {
-    font-size: 1em;
-    top: -30px;
-  }
-}
+// .floating-label {
+//   position: absolute;
+//   top: -35px;
+//   left: 50%;
+//   transform: translate(-50%, 0);
+//   padding: 20px;
+//   background-color: white;
+//   text-transform: uppercase;
+//   font-size: 1.5em;
+//   color: $color-grey3;
+//   @media screen and (max-width: $width-xs) {
+//     font-size: 1em;
+//     top: -30px;
+//   }
+// }
 .separator {
   height: 2px;
-  border-top: solid 1px $color-grey3;
+  border-top: solid 1px $color-silver;
   margin: 20px 0 20px 0;
   position: relative;
 }

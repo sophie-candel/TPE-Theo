@@ -9,7 +9,7 @@ var gulp = require("gulp"),
 // TASKS //
 //////////////////////////////////////////
 
-gulp.task("sass", function() {
+gulp.task("sass", function () {
   return gulp
     .src(source + "/styles/main.scss")
     .pipe(plugins.sass())
@@ -17,17 +17,17 @@ gulp.task("sass", function() {
     .pipe(gulp.dest(destination));
 });
 
-gulp.task("index", function() {
-  return gulp.src(source + "/index.html").pipe(gulp.dest(destination));
+gulp.task("index", function () {
+  return gulp.src(source + "/index.php").pipe(gulp.dest(destination));
 });
 
-gulp.task("views", function() {
+gulp.task("views", function () {
   return gulp
     .src(source + "/views/**/*")
     .pipe(gulp.dest(destination + "/views"));
 });
 
-gulp.task("js", function() {
+gulp.task("js", function () {
   return gulp
     .src([source + "/angular/**/*.js", source + "/angular/*.js"])
     .pipe(plugins.concat("bundle.js"))
@@ -35,26 +35,33 @@ gulp.task("js", function() {
     .pipe(gulp.dest(destination));
 });
 
-gulp.task("sources", function() {
+gulp.task("sources", function () {
   return gulp
     .src(source + "/sources/**/*")
     .pipe(gulp.dest(destination + "/sources"));
 });
 
+gulp.task("includes", function () {
+  return gulp
+    .src(source + "/includes/*")
+    .pipe(gulp.dest(destination + "/includes"));
+});
+
 //////////////////////////////////////////
 // BUILD // WATCH //
 //////////////////////////////////////////
-gulp.task("build", ["sass", "index", "views", "js", "sources"]);
+gulp.task("build", ["sass", "index", "views", "js", "sources", "includes"]);
 
-gulp.task("watch", function() {
+gulp.task("watch", function () {
   gulp.watch(
     [
       source + "/styles/*.scss",
-      source + "/index.html",
-      source + "/views/**/*.html",
+      source + "/index.php",
+      source + "/views/**/*",
       source + "/angular/**/*.js",
       source + "/angular/*.js",
-      source + "/sources/**/*"
+      source + "/sources/**/*",
+      source + "/includes/*"
     ],
     ["build"]
   );
