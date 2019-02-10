@@ -42,9 +42,23 @@ a {
   text-decoration: none;
 }
 
-h1 {
-  margin-bottom: 40px;
+b {
+  font-weight: $font-weight-4;
+  color: $color-green;
+  text-decoration: underline;
 }
+
+h3 {
+  text-transform: uppercase;
+  font-size: $font-size-s;
+}
+
+// h1 {
+//   margin-bottom: 40px;
+// }
+// h2 {
+//   margin-bottom: 20px;
+// }
 
 // .subtitle {
 //   font-family: $font-family-sub;
@@ -117,13 +131,14 @@ h1 {
   font-size: $font-size-m !important;
 }
 .is-l,
-h1 {
+h2 {
   font-size: $font-size-l !important;
   @media screen and (max-width: $width-xs) {
     font-size: 1.2em !important;
   }
 }
-.is-xl {
+.is-xl,
+h1 {
   font-size: $font-size-xl !important;
   @media screen and (max-width: $width-xs) {
     font-size: $font-size-l !important;
@@ -146,9 +161,7 @@ h1 {
 .weight-400 {
   font-weight: $font-weight-2 !important;
 }
-.weight-700,
-b,
-strong {
+.weight-700 {
   font-weight: $font-weight-3 !important;
 }
 

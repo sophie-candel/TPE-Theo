@@ -54,6 +54,10 @@ body {
   background-color: $color-grey;
 }
 
+main {
+  margin-top: 150px;
+}
+
 .wrapper {
   width: 70%;
   margin: 0 auto;
@@ -64,15 +68,32 @@ body {
 nav {
   width: 100%;
   margin: 0 auto;
-  padding: 1em;
   border-top: solid 10px $color-green;
-  a {
-    color: $color-black;
-    text-transform: uppercase;
+  position: fixed;
+  top: 0;
+  background-color: $color-grey;
+  z-index: 1;
+  li {
+    padding: 1em;
+    &:hover {
+      background-color: $color-silver;
+      color: $color-white;
+      transition: ease-in 0.5s;
+      a {
+        color: $color-white;
+      }
+    }
+    a {
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      font-size: 14px;
+      color: $color-black;
+    }
   }
 }
 
-.list {
-  list-style: circle;
-  margin: 20px;
+.columns {
+  column-count: 3;
+  column-gap: 30px;
+  text-align: justify;
 }

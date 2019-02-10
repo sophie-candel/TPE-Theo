@@ -40,10 +40,14 @@ button {
   font-family: $font-family-main !important;
   font-size: 1em;
   color: white;
-  padding: 20px;
+  background-color: $color-green;
+  padding: 10px;
   border: 0 !important;
   cursor: pointer;
-  width: 100%;
+  width: 200px;
+  a {
+    color: $color-white;
+  }
 }
 
 button[type="submit"] {
