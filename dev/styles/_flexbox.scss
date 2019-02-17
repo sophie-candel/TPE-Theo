@@ -10,6 +10,9 @@
     display: flex;
     /*@include prefix(align-items, center, webkit ms);*/
     @include prefix(flex-wrap, wrap !important, webkit ms);
+    p {
+      flex: 1;
+    }
   }
 
   // DIRECTION

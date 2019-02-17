@@ -12,6 +12,6 @@
 
 Configuration du fichier `gulpfile.js`
 
-Installation des dépendances : `composer install`
+Installation des dépendances : `npm install`
 
 Génération des fichiers de production : `gulp build`
