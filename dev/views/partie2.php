@@ -106,20 +106,20 @@
     <p>
         Starbucks utilise l’évasion fiscale en Europe, ce n’est plus un secret. Mais malheureusement ce n’est pas le seul point noir de l’entreprise.
     </p>
-
+<div class="separator"></div>
     <h3>De multiples scandales dans le monde</h3>
     <p>
         Starbucks n’est pas aussi blanc que ce qu’ils veulent nous faire croire. En effet, plusieurs scandales ont éclaté et salissent son image.
     </p>
 
-    <ul>
+    <ul class="liste">
         <li>
             <p><b>Racisme</b> - 
 Le 12 avril 2018, un employé du Starbucks de Philadelphie aux Etats-Unis appelle la police, car deux hommes noirs dans le café ne voulaient pas commander, ils « attendaient une connaissance ». Les deux hommes seront interpellés par la police. Les images de l’arrestation ont rapidement fait le tour du monde. Le public a été choqué par <b>le racisme apparent des forces de l’ordre et du personnel Starbucks</b>. Le PDG de Starbucks Kévin Johnson s’est excusé publiquement et a fermé le 29 mai plus de 8000 établissements dont 175 000 employés le temps d’une après-midi pour une formation pour corriger les préjugés racistes, promouvoir l’inclusion, prévenir les discriminations et accueillir la clientèle. Cette démarche est faite pour réparer l’image de Starbucks suite à cet incident.</p>
         </li>
 
         <li>
-            <div class="flex-container">
+            <div class="flex-container m-b-20">
                 
                 <p>
                     <b>Traitement des employés</b> - La chaine Arte, le 28 août 2018 sort le documentaire « Starbucks sans filtre » qui va dénoncer les problèmes liés aux salariés Starbucks. En effet, que ce soit aux USA ou en France, les employés se sentent <b>submergés par le travail</b> et n’ont le droit qu’à peu de pauses. Les conditions sont souvent déplorables : un comptoir trop bas qui provoque des mal de dos et des horaires compliqués pour certain. Tout ça pour un salaire relativement bas (salaire le plus faible : 1305€). Luc Hermann employé Starbucks en France témoigne : « Je n’ai jamais eu un travail aussi difficile… ». 
