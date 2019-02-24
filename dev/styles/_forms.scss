@@ -47,6 +47,9 @@ button {
   width: 200px;
   a {
     color: $color-white;
+    &:hover {
+      font-weight: $font-weight-4;
+    }
   }
 }
 

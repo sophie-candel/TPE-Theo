@@ -4,11 +4,11 @@
 ?>
 
 
-<section class="wrapper bg-white m-b-100 p-40">
+<section class="wrapper bg-white m-b-100 p-40 animated fadeInUp">
     <h1>PARTIE 2 : Starbucks, un "modèle" qui s'impose ? </h1>
 </section>
 
-<section class="wrapper bg-white m-b-100 p-40">
+<section class="wrapper bg-white m-b-100 p-40 animated fadeInUp">
     <h2 class="m-b-40">A - Une concurrence qui imite pour rivaliser</h2>
     <img src="\sources\img\II)A) .jpg" alt="" class="float-left" width="445">
     <p>
@@ -77,10 +77,12 @@
         <b>Manolya</b> est à la base une petite chaîne de restauration rapide créée à Strasbourg qui, par la suite se développe et créer un espace où l’on peut boire des cafés, thés, chocolat chaud, etc … en toute tranquillité. Il n’existe pour le moment qu’un Manolya café dans le monde.
     </p>
 
+    <img src="\sources\img\II)A)2.JPG" alt="" width="400" class="float-left">
     <p>
         D’après le questionnaire réalisé à Starsbourg, le concurrent de Starbucks le plus connu et le plus important pour les consommateurs est le McCafé.
 	    Etant <b>un modèle qui marche</b>, Starbucks se fait beaucoup copier par d’autres entreprises dans le monde entier ce qui aboutit à la similitude de toutes les grandes chaînes de cafés ; ils ne sont plus uniques. Jusqu’à présent Starbucks reste n1 dans son domaine à l’échelle mondiale.
     </p>
+    <div class="clearfix"></div>
 </section>
 
 <section class="wrapper bg-white m-b-100 p-40">

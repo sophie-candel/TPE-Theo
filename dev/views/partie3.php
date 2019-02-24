@@ -4,11 +4,11 @@
 ?>
 
 
-<section class="wrapper bg-white m-b-100 p-40">
+<section class="wrapper bg-white m-b-100 p-40 animated fadeInUp">
     <h1>PARTIE 3 : Starbucks s'intègre-t-il dans une logique de développement durable ? </h1>
 </section>
 
-<section class="wrapper bg-white m-b-100 p-40">
+<section class="wrapper bg-white m-b-100 p-40 animated fadeInUp">
     <p>
         Les cafés Starbucks sont soumis à <b>des règles d’éthiques strictes</b>, comme la transparence sur les origines, les procédés de fabrication etc… Les boutiques de la chaîne répondent toutes aux normes environnementales, sociales et économiques voulues par la marque : c’est le développement durable, qui est une façon d’organiser la société afin de répondre aux besoins des générations actuelles sans compromettre les besoins des générations futures.
     </p>

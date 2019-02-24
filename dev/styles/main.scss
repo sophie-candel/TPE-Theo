@@ -76,11 +76,10 @@ nav {
   li {
     padding: 1em;
     &:hover {
-      background-color: $color-silver;
-      color: $color-white;
       transition: ease-in 0.5s;
+      cursor: pointer;
       a {
-        color: $color-white;
+        font-weight: $font-weight-4;
       }
     }
     a {
@@ -112,7 +111,37 @@ nav {
   clear: both;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 ul.liste {
   list-style: disc;
   margin-left: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td,
+table th {
+  border: 1px solid $color-silver;
+  padding: 8px;
+}
+
+table tr:nth-child(even) {
+  background-color: $color-grey;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: $color-green;
+  color: white;
+}
+footer p {
+  text-align: center;
 }
